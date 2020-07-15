@@ -2,6 +2,8 @@
 
 FuriousBanker is an educational game series developed by Open Risk to enable modern interactive eLearning for people working or studying to work in financial risk management. The game concepts and logic are directly derived from realistic situations and tools used in practice (but may have been simplified and/or dramatized). 
 
+![Overview](/data/Overview.png)
+
 ## Installation and Starting the game
 
 * Clone the github repository
