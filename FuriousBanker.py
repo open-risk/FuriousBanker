@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# (c) 2014-2020 Open Risk, all rights reserved
+# (c) 2014-2022 Open Risk, all rights reserved
 #
 # FuriousBanker is licensed under the MIT license a copy of which is included
 # in the source distribution of FuriousBanker. This is notwithstanding any licenses of
@@ -12,6 +12,8 @@
 # either express or implied. See the License for the specific language governing permissions and
 # limitations under the License.
 
+import webbrowser
+
 from kivy.app import App
 from kivy.clock import Clock
 from kivy.properties import NumericProperty
@@ -20,11 +22,9 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.image import Image
 from kivy.uix.label import Label
-from kivy.uix.textinput import TextInput
 from kivy.uix.popup import Popup
 from kivy.uix.togglebutton import ToggleButton
 from ruamel.yaml import YAML
-import webbrowser
 
 import calculator
 
@@ -42,6 +42,7 @@ class AppConfig:
         self.time_delta = None
         self.winning_score = None
 
+
 class FuriousBankerApp(App):
     __version__ = '0.3'
 
@@ -53,7 +54,6 @@ class FuriousBankerApp(App):
 
 # define the main widget as a BoxLayout
 class Root(BoxLayout):
-
     in_yaml = YAML(typ='unsafe')
     inFile = open('configuration.yml', 'r')
     AC = in_yaml.load(inFile)
