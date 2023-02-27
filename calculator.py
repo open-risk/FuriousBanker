@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# (c) 2014-2020 Open Risk, all rights reserved
+# (c) 2014-2023 Open Risk, all rights reserved
 #
 # FuriousBanker is licensed under the MIT license a copy of which is included
 # in the source distribution of FuriousBanker. This is notwithstanding any licenses of
