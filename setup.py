@@ -27,7 +27,7 @@ setup(
     download_url='https://github.com/open-risk/FuriousBanker/v_0.3.0.tar.gz',
     license='The MIT License (MIT)',
     author='Open Risk',
-    author_email='info@openrisk.eu',
+    author_email='info@openriskmanagement.com',
     description='A python game platform for learning about risk management',
     install_requires=[
         'numpy',
